@@ -24,6 +24,7 @@ A boilerplate for Vue 3 JS that includes essential plugins.
 - [Iconify](https://iconify.design/)
 - [Sass](https://sass-lang.com/)
 - [Axios](https://axios-http.com/)
+- [VueRouter](https://router.vuejs.org/)
 
 <br/>
 > *Happy coding!*
