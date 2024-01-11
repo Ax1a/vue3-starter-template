@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import { Icon } from '@iconify/vue'
+import { createPinia } from 'pinia'
 import './style.css'
 import App from './App.vue'
 
@@ -13,5 +15,10 @@ const router = createRouter({
     }
   ]
 })
+const app = createApp(App)
+const pinia = createPinia()
 
-createApp(App).use(router).mount('#app')
+app.component('Icon', Icon)
+app.use(router)
+app.use(pinia)
+app.mount('#app')
