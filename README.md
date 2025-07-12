@@ -8,7 +8,10 @@ A boilerplate for Vue 3 JS that includes essential plugins.
 > - Clone the repository <br/><br/>
 > <img src="https://github.com/Ax1a/vue3-starter-template/assets/72881392/a6dbc6b8-abf8-469f-ac86-3dfd7544c6a3" height="350"> <br/>
 > > Copy the HTTPS link, then type `git clone [HTTPS link] [folder-name]` in your terminal.
-> - Run Commands:
+> -  git remote remove origin
+> -  git remote add origin https://github.com/yourusername/new-repo.git
+> -  git push -u origin main
+> -  Run Commands:
 > ```
 > npm install
 > 
